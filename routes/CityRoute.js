@@ -15,15 +15,6 @@ cityRouter.get("/", async (req, res) => {
     }
 })
 
-// cityRouter.get("/:id", async (req, res) => {
-//     try {
-//         const id = req.params.id;
-//         const post = await Post.findById(id);
-//         res.send({ post });
-//     } catch (error) {
-//         res.send({ msg: error.msg });
-//     }
-// });
 
 cityRouter.post("/post", async (req, res) => {
     try {
